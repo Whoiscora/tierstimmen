@@ -135,15 +135,9 @@ img {
   padding: 1rem;
 }
 
-.list-text {
-  display: flex;
-  flex-direction: column;
-  gap: 0.375rem;
+.list-title {
   flex: 1 1 45%;
   min-width: 0;
-}
-
-.list-title {
   font-weight: 500;
   font-style: normal;
   font-size: 1.25rem;
