@@ -1,0 +1,189 @@
+/* ---------- Fonts ---------- */
+@font-face {
+  font-family: "ABC Monument Grotesk";
+  src: url("../../fonts/ABCMonumentGrotesk-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ABC Monument Grotesk";
+  src: url("../../fonts/ABCMonumentGrotesk-RegularItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ABC Monument Grotesk";
+  src: url("../../fonts/ABCMonumentGrotesk-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ABC Monument Grotesk";
+  src: url("../../fonts/ABCMonumentGrotesk-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ABC Monument Grotesk";
+  src: url("../../fonts/ABCMonumentGrotesk-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------- Reset & base ---------- */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-height: calc(var(--vh, 1vh) * 100);
+  background: #ffffff;
+  color: #000000;
+  font-family: "ABC Monument Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* ---------- Page shell ---------- */
+.page {
+  width: 100%;
+  max-width: 34rem;
+  margin-inline: auto;
+  padding-bottom: 6.25rem;
+  overflow-x: hidden;
+}
+
+/* ---------- Page header ---------- */
+.page-header {
+  padding: 2rem 1rem 1.25rem;
+}
+
+.page-header h1 {
+  margin: 0;
+  font-weight: 700;
+  font-style: normal;
+  font-size: clamp(1.75rem, 8vw, 2.1875rem);
+  line-height: 1.03;
+  color: #000000;
+}
+
+/* ---------- Chapters ---------- */
+.chapter-title {
+  margin: 0;
+  padding: 1.5rem 1rem 0.5rem;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.125rem;
+  line-height: 1.05;
+}
+
+.chapter:first-of-type .chapter-title {
+  padding-top: 0.5rem;
+}
+
+.chapter-band {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ---------- List ---------- */
+.list-item {
+  border-top: 0.0625rem solid #1d191a;
+}
+
+.list-item:last-child {
+  border-bottom: 0.0625rem solid #1d191a;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 1rem;
+}
+
+.list-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  flex: 1 1 45%;
+  min-width: 0;
+}
+
+.list-title {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.25rem;
+  line-height: 1.05;
+  color: #000000;
+}
+
+.list-subtitle {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.75rem;
+  line-height: normal;
+  color: #1d191a;
+  flex: 1 1 40%;
+  min-width: 0;
+}
+
+.arrow {
+  flex: 0 0 auto;
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+/* ---------- Footer ---------- */
+.page-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  padding: 3rem 1rem 0 1rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.875rem;
+  letter-spacing: -0.0175rem;
+  color: #000000;
+}
+
+.page-footer a,
+.page-footer span {
+  width: fit-content;
+  text-decoration: underline;
+  text-underline-offset: 0.0625rem;
+  cursor: pointer;
+}
