@@ -98,9 +98,6 @@ body.player-page {
   width: 100%;
   max-width: 21.4375rem;
   padding: 0.0625rem 1rem;
-  border-radius: 12.5rem;
-  backdrop-filter: blur(5.21875rem);
-  -webkit-backdrop-filter: blur(5.21875rem);
 }
 
 .timeline {
