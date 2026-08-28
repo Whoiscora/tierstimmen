@@ -5,8 +5,12 @@ body.player-page {
   background-repeat: no-repeat;
 }
 
-.player-detail {
-  padding-top: 7.5rem;
+.hero {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+  padding-top: 3rem;
 }
 
 /* ---------- Back link ---------- */
@@ -33,7 +37,7 @@ body.player-page {
 }
 
 .track-title {
-  margin: 0;
+  margin: 1.625rem 0 0;
   font-weight: 700;
   font-size: 2.1875rem;
   line-height: 2.25rem;
@@ -77,9 +81,10 @@ body.player-page {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-shrink: 0;
   gap: 1.9375rem;
-  margin-top: 10rem;
-  padding-inline: 1rem;
+  margin-top: auto;
+  padding: 2.375rem 1rem 3rem;
 }
 
 .audioplayer {
