@@ -1,8 +1,12 @@
 .DS_Store
 
-# Only the currently-linked placeholder track is committed; the rest of
-# this folder holds audio for chapters not wired up yet.
+# Only the currently-linked tracks are committed; the rest of this
+# folder holds audio for chapters not wired up yet.
 assets/audio_files/*
 !assets/audio_files/Lachende_ratten/
 assets/audio_files/Lachende_ratten/*
 !assets/audio_files/Lachende_ratten/Rat 50kHz - rats laughter DeepSqueak playback.mp3
+
+!assets/audio_files/tiere_machen_musik_Kircher_Athanasius/
+assets/audio_files/tiere_machen_musik_Kircher_Athanasius/*
+!assets/audio_files/tiere_machen_musik_Kircher_Athanasius/Kircher_Kohnen_Hahn.mp3

@@ -81,4 +81,14 @@
       audio.currentTime = Math.max(0, audio.currentTime - step);
     }
   });
+
+  const tracklistToggle = document.getElementById("tracklist-toggle");
+  const tracklist = document.getElementById("tracklist");
+
+  if (tracklistToggle && tracklist) {
+    tracklistToggle.addEventListener("click", () => {
+      const isOpen = tracklist.classList.toggle("is-open");
+      tracklistToggle.setAttribute("aria-expanded", String(isOpen));
+    });
+  }
 })();

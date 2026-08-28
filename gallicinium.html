@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>Weiher – Audiothek</title>
+<title>Gallicinium (Hahn) – Audiothek</title>
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/player.css">
 </head>
-<body class="player-page player-page--weiher">
+<body class="player-page player-page--gallicinium">
 <main class="page player-detail">
  <div class="hero">
   <a class="back-link" href="index.html">
@@ -16,11 +16,16 @@
   </a>
 
   <div class="title-block">
-    <h1 class="track-title">Weiher</h1>
+    <button class="tracklist-toggle" type="button" id="tracklist-toggle" aria-expanded="false" aria-controls="tracklist">
+      Titel 1 von 5
+      <img src="assets/images/caret-down.svg" alt="">
+    </button>
 
-    <div class="tracklist">
+    <h1 class="track-title">Gallicinium (Hahn)</h1>
+
+    <div class="tracklist" id="tracklist">
       <ul class="list">
-        <li class="list-item">
+        <li class="list-item list-item--active">
           <div class="list-row">
             <span class="list-title">Hahn</span>
             <span class="list-subtitle">Athanasius Kircher</span>
@@ -58,16 +63,16 @@
       </ul>
     </div>
 
-    <p class="credit">Joshua Bonnetta, aufgenommen auf dem Gelände der Stiftung Kunst und Natur Nantesbuch, 2026</p>
+    <p class="credit">Athanasius Kircher<br>Gespielt von Susanne Kohnen, 2026</p>
   </div>
 
   <div class="description-wrap">
-    <p class="description">Hier lauschen Sie den unzähligen Stimmen, die in einer Sommernacht in Oberbayern die Dunkelheit erfüllt haben.</p>
+    <p class="description">Der Universalgelehrte Athanasius Kircher gilt als der erste Mensch, der Tierstimmen in Noten übersetzt hat (1650).</p>
   </div>
 
   <section class="audioplayer-section" aria-label="Audioplayer">
     <audio id="audio" preload="metadata">
-      <source src="assets/audio_files/Lachende_ratten/Rat%2050kHz%20-%20rats%20laughter%20DeepSqueak%20playback.mp3" type="audio/mpeg">
+      <source src="assets/audio_files/tiere_machen_musik_Kircher_Athanasius/Kircher_Kohnen_Hahn.mp3" type="audio/mpeg">
     </audio>
 
     <div class="audioplayer">
@@ -88,7 +93,9 @@
           <img class="play-icon" src="assets/images/play-icon.svg" alt="">
           <span class="pause-icon"><span></span><span></span></span>
         </button>
-        <button class="nav-btn" id="next-btn" type="button" disabled aria-label="Nächster Track"></button>
+        <button class="nav-btn" id="next-btn" type="button" aria-label="Nächster Track: Wachtelruf">
+          <img src="assets/images/next-icon.svg" alt="">
+        </button>
       </div>
     </div>
 
@@ -98,7 +105,11 @@
 
   <footer class="details">
     <h2 class="details-title">Details</h2>
-    <p class="details-rights">℗ Joshua Bonnetta</p>
+    <div class="details-text">
+      <p>Athanasius Kircher (1602–1680)<br>Aus: <em>Musurgia universalis, sive Ars magna Consoni et Dissoni</em>, <em>in X libros digesta, t.1,</em> Rom: Francisco Corbelletti, 1650,<br>zwischen S. 30 und 31</p>
+      <p>Gespielt von Susanne Kohnen für das Museum Sinclair-Haus, 2026, Barockoboe</p>
+    </div>
+    <p class="details-rights">℗ CC BY NC 4.0 Susanne Kohnen, Einspielung für das Museum Sinclair-Haus</p>
     <div class="legal-links">
       <a href="https://kunst-und-natur.de/stiftung/impressum" target="_blank" rel="noopener">Impressum</a>
       <span>Datenschutz</span>

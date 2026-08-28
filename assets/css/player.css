@@ -1,8 +1,15 @@
 body.player-page {
-  background-image: url("../images/weiher-bg.png");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
+}
+
+body.player-page--weiher {
+  background-image: url("../images/weiher-bg.png");
+}
+
+body.player-page--gallicinium {
+  background-image: url("../images/gallicinium-bg.png");
 }
 
 .hero {
@@ -37,7 +44,7 @@ body.player-page {
 }
 
 .track-title {
-  margin: 1.625rem 0 0;
+  margin: 0;
   font-weight: 700;
   font-size: 2.1875rem;
   line-height: 2.25rem;
@@ -45,8 +52,50 @@ body.player-page {
   color: #000000;
 }
 
+.title-block > .track-title:first-child {
+  margin-top: 1.625rem;
+}
+
+.tracklist-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0;
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+  color: #000000;
+  cursor: pointer;
+}
+
+.tracklist-toggle img {
+  width: 0.71875rem;
+  height: 0.357rem;
+  transition: transform 0.2s ease;
+}
+
+.tracklist-toggle[aria-expanded="true"] img {
+  transform: rotate(180deg);
+}
+
+.tracklist-toggle + .track-title {
+  margin-top: 0.5rem;
+}
+
 .tracklist {
   display: none;
+}
+
+.tracklist.is-open {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.list-item--active .list-row {
+  background: rgba(125, 172, 220, 0.5);
 }
 
 .credit {
@@ -162,6 +211,11 @@ body.player-page {
   cursor: default;
 }
 
+.nav-btn img {
+  width: 1rem;
+  height: 1rem;
+}
+
 .play-btn {
   flex: 0 0 auto;
   display: flex;
@@ -220,6 +274,25 @@ body.player-page {
   font-size: 1.25rem;
   line-height: 1.25rem;
   color: #000000;
+}
+
+.details-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
+  margin: 0;
+  font-weight: 400;
+  font-size: 1.125rem;
+  letter-spacing: -0.0225rem;
+  color: #000000;
+}
+
+.details-text p {
+  margin: 0;
+}
+
+.details-text em {
+  font-style: italic;
 }
 
 .details-rights {
