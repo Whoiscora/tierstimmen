@@ -52,7 +52,7 @@ body.player-page--gallicinium {
   color: #000000;
 }
 
-.title-block > .track-title:first-child {
+.title-block > *:first-child {
   margin-top: 1.625rem;
 }
 
