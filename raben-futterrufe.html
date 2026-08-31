@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Raben: Futterrufe – Audiothek</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/player.css">
+</head>
+<body class="player-page player-page--raben-futterrufe">
+<main class="page player-detail">
+ <div class="hero">
+  <a class="back-link" href="index.html">
+    <img src="assets/images/back-arrow.svg" alt="">
+    Zurück zur Übersicht
+  </a>
+
+  <div class="title-block">
+    <button class="tracklist-toggle" type="button" id="tracklist-toggle" aria-expanded="false" aria-controls="tracklist">
+      Titel 1 von 3
+      <img src="assets/images/caret-down.svg" alt="">
+    </button>
+
+    <h1 class="track-title">Raben: Futterrufe</h1>
+
+    <div class="tracklist" id="tracklist">
+      <ul class="list">
+        <li class="list-item list-item--active">
+          <div class="list-row">
+            <span class="list-title">Futterrufe</span>
+            <span class="list-subtitle">Lisa Canaval</span>
+            <img class="arrow" src="assets/images/track-arrow.svg" alt="">
+          </div>
+        </li>
+        <li class="list-item">
+          <div class="list-row">
+            <span class="list-title">Alarmrufe</span>
+            <span class="list-subtitle">Lisa Canaval</span>
+            <img class="arrow" src="assets/images/track-arrow.svg" alt="">
+          </div>
+        </li>
+        <li class="list-item">
+          <div class="list-row">
+            <span class="list-title">Imponierrufe</span>
+            <span class="list-subtitle">Lisa Canaval</span>
+            <img class="arrow" src="assets/images/track-arrow.svg" alt="">
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <p class="credit">Aufgenommen von Lisa Canaval, 2022–23</p>
+  </div>
+
+  <div class="description-wrap">
+    <p class="description">Lisa Canavals Aufnahmen entstanden im Forschungsprojekt "Lautkommunikation des <em>Corvus corax</em> im multimodalen Kontext".</p>
+  </div>
+
+  <section class="audioplayer-section" aria-label="Audioplayer">
+    <audio id="audio" preload="metadata">
+      <source src="assets/audio_files/Rabenstimmen/Beispiel%20A%20Futterruf.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="audioplayer">
+      <div class="player-pill">
+        <div class="timeline" id="timeline" role="slider" tabindex="0" aria-label="Wiedergabeposition" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <div class="timeline-track"></div>
+          <div class="timeline-progress" id="timeline-progress"></div>
+        </div>
+        <div class="time-row">
+          <span id="current-time">0:00</span>
+          <span id="remaining-time">-0:00</span>
+        </div>
+      </div>
+
+      <div class="player-controls">
+        <button class="nav-btn" id="prev-btn" type="button" disabled aria-label="Vorheriger Track"></button>
+        <button class="play-btn" id="play-btn" type="button" aria-label="Abspielen" aria-pressed="false">
+          <img class="play-icon" src="assets/images/play-icon.svg" alt="">
+          <span class="pause-icon"><span></span><span></span></span>
+        </button>
+        <button class="nav-btn" id="next-btn" type="button" disabled aria-label="Nächster Track"></button>
+      </div>
+    </div>
+
+    <img src="assets/images/chevron-down.svg" alt="" width="13.5" height="6.7263">
+  </section>
+ </div>
+
+  <footer class="details">
+    <h2 class="details-title">Details</h2>
+    <p class="details-rights">℗ Thomas Bugnyar, Bugnyar.Lab Universität Wien</p>
+    <div class="legal-links">
+      <a href="https://kunst-und-natur.de/stiftung/impressum" target="_blank" rel="noopener">Impressum</a>
+      <span>Datenschutz</span>
+    </div>
+  </footer>
+</main>
+<script src="assets/js/player.js"></script>
+</body>
+</html>
