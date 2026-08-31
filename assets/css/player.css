@@ -10,7 +10,8 @@ body.player-page--weiher {
 
 body.player-page--gallicinium,
 body.player-page--wachtelruf,
-body.player-page--kuckucksruf {
+body.player-page--kuckucksruf,
+body.player-page--henne-eier {
   background-image: url("../images/gallicinium-bg.png");
 }
 

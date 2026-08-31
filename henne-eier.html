@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>Vox Cuculi (Kuckucksruf) – Audiothek</title>
+<title>Vox parturientis Gallina (Stimme der eierlegenden Henne) – Audiothek</title>
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/player.css">
 </head>
-<body class="player-page player-page--kuckucksruf">
+<body class="player-page player-page--henne-eier">
 <main class="page player-detail">
  <div class="hero">
   <a class="back-link" href="index.html">
@@ -17,11 +17,11 @@
 
   <div class="title-block">
     <button class="tracklist-toggle" type="button" id="tracklist-toggle" aria-expanded="false" aria-controls="tracklist">
-      Titel 3 von 5
+      Titel 4 von 5
       <img src="assets/images/caret-down.svg" alt="">
     </button>
 
-    <h1 class="track-title">Vox Cuculi<br>(Kuckucksruf)</h1>
+    <h1 class="track-title">Vox parturientis<br>Gallina (Stimme der<br>eierlegenden Henne)</h1>
 
     <div class="tracklist" id="tracklist">
       <ul class="list">
@@ -39,14 +39,14 @@
             <img class="arrow" src="assets/images/track-arrow.svg" alt="">
           </div>
         </li>
-        <li class="list-item list-item--active">
+        <li class="list-item">
           <div class="list-row">
             <span class="list-title">Kuckucksruf</span>
             <span class="list-subtitle">Athanasius Kircher</span>
             <img class="arrow" src="assets/images/track-arrow.svg" alt="">
           </div>
         </li>
-        <li class="list-item">
+        <li class="list-item list-item--active">
           <div class="list-row">
             <span class="list-title">Stimme der eier-legenden Henne</span>
             <span class="list-subtitle">Athanasius Kircher</span>
@@ -72,7 +72,7 @@
 
   <section class="audioplayer-section" aria-label="Audioplayer">
     <audio id="audio" preload="metadata">
-      <source src="assets/audio_files/tiere_machen_musik_Kircher_Athanasius/Kircher_Kohnen_Kuckuck.mp3" type="audio/mpeg">
+      <source src="assets/audio_files/tiere_machen_musik_Kircher_Athanasius/Kircher_Kohnen_Henne_Eier.mp3" type="audio/mpeg">
     </audio>
 
     <div class="audioplayer">
@@ -88,16 +88,14 @@
       </div>
 
       <div class="player-controls">
-        <a class="nav-btn" id="prev-btn" href="wachtelruf.html" aria-label="Vorheriger Track: Wachtelruf">
+        <a class="nav-btn" id="prev-btn" href="kuckucksruf.html" aria-label="Vorheriger Track: Kuckucksruf">
           <img src="assets/images/prev-icon.svg" alt="">
         </a>
         <button class="play-btn" id="play-btn" type="button" aria-label="Abspielen" aria-pressed="false">
           <img class="play-icon" src="assets/images/play-icon.svg" alt="">
           <span class="pause-icon"><span></span><span></span></span>
         </button>
-        <a class="nav-btn" id="next-btn" href="henne-eier.html" aria-label="Nächster Track: Stimme der eier-legenden Henne">
-          <img src="assets/images/next-icon.svg" alt="">
-        </a>
+        <button class="nav-btn" id="next-btn" type="button" disabled aria-label="Nächster Track"></button>
       </div>
     </div>
 
