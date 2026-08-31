@@ -69,6 +69,14 @@ body.player-page--raben-imponierrufe .list-item--active .list-row {
   background: rgba(165, 147, 194, 0.5);
 }
 
+body.player-page--kauai-oo {
+  background-image: url("../images/orange-bg.png");
+}
+
+body.player-page--kauai-oo .timeline-progress {
+  background: #e48f53;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -107,6 +115,11 @@ body.player-page--raben-imponierrufe .list-item--active .list-row {
   line-height: 2.25rem;
   letter-spacing: -0.021875rem;
   color: #000000;
+}
+
+.track-title-species {
+  font-weight: 500;
+  font-style: italic;
 }
 
 .title-block > *:first-child {
