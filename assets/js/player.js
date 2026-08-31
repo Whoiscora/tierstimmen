@@ -84,11 +84,13 @@
 
   const tracklistToggle = document.getElementById("tracklist-toggle");
   const tracklist = document.getElementById("tracklist");
+  const hero = document.querySelector(".hero");
 
   if (tracklistToggle && tracklist) {
     tracklistToggle.addEventListener("click", () => {
       const isOpen = tracklist.classList.toggle("is-open");
       tracklistToggle.setAttribute("aria-expanded", String(isOpen));
+      hero.classList.toggle("tracklist-open", isOpen);
     });
   }
 })();

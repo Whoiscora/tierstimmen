@@ -170,6 +170,11 @@ body.player-page--kauai-oo .timeline-progress {
   background: rgba(125, 172, 220, 0.5);
 }
 
+.hero.tracklist-open .credit,
+.hero.tracklist-open .description-wrap {
+  display: none;
+}
+
 .tracklist .list-title {
   font-size: 1rem;
 }
