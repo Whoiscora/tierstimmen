@@ -33,14 +33,16 @@ body.player-page--magicicada-warm-springs .timeline-progress {
 body.player-page--lachende-ratten,
 body.player-page--bootsmannfische-summen,
 body.player-page--bootsmannfische-knurren,
-body.player-page--bootsmannfische-grunzen {
+body.player-page--bootsmannfische-grunzen,
+body.player-page--how-to-be-a-whale {
   background-image: url("../images/purple-bg.png");
 }
 
 body.player-page--lachende-ratten .timeline-progress,
 body.player-page--bootsmannfische-summen .timeline-progress,
 body.player-page--bootsmannfische-knurren .timeline-progress,
-body.player-page--bootsmannfische-grunzen .timeline-progress {
+body.player-page--bootsmannfische-grunzen .timeline-progress,
+body.player-page--how-to-be-a-whale .timeline-progress {
   background: #a593c2;
 }
 
@@ -331,6 +333,15 @@ body.player-page--bootsmannfische-grunzen .list-item--active .list-row {
 
 .details-text em {
   font-style: italic;
+}
+
+.details-subtitle {
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+  letter-spacing: -0.025rem;
+  color: #000000;
 }
 
 .details-rights {
