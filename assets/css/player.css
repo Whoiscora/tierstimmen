@@ -19,12 +19,14 @@ body.player-page--luscinia {
 }
 
 body.player-page--we-are-one,
-body.player-page--du-bist-gut-drauf {
+body.player-page--du-bist-gut-drauf,
+body.player-page--magicicada-warm-springs {
   background-image: url("../images/green-bg.png");
 }
 
 body.player-page--we-are-one .timeline-progress,
-body.player-page--du-bist-gut-drauf .timeline-progress {
+body.player-page--du-bist-gut-drauf .timeline-progress,
+body.player-page--magicicada-warm-springs .timeline-progress {
   background: #83bc94;
 }
 
