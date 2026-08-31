@@ -170,6 +170,10 @@ body.player-page--kauai-oo .timeline-progress {
   background: rgba(125, 172, 220, 0.5);
 }
 
+.tracklist .list-title {
+  font-size: 1rem;
+}
+
 .credit {
   margin: 0.75rem 0 0;
   font-weight: 400;
