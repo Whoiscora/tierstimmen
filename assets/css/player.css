@@ -110,8 +110,6 @@ body.player-page--gallicinium {
 
 /* ---------- Description ---------- */
 .description-wrap {
-  display: flex;
-  justify-content: center;
   padding-inline: 1rem;
   margin-top: 2.375rem;
 }
