@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Klingen wie ein Wal – Audiothek</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/player.css">
+</head>
+<body class="player-page player-page--klingen-wie-ein-wal">
+<main class="page player-detail">
+ <div class="hero">
+  <a class="back-link" href="index.html">
+    <img src="assets/images/back-arrow.svg" alt="">
+    Zurück zur Übersicht
+  </a>
+
+  <div class="title-block">
+    <h1 class="track-title">Klingen wie ein Wal</h1>
+
+    <p class="credit">Abigail Sanders, 2025</p>
+  </div>
+
+  <div class="description-wrap">
+    <p class="description">Abigail Sanders übersetzt Buckelwalgesänge in Noten und spielt sie auf dem Horn.</p>
+  </div>
+
+  <section class="audioplayer-section" aria-label="Audioplayer">
+    <audio id="audio" preload="metadata">
+      <source src="assets/audio_files/klingen_wie_ein_wal_Sanders_Abigail/Sanders_Abigail_1951_14032025.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="audioplayer">
+      <div class="player-pill">
+        <div class="timeline" id="timeline" role="slider" tabindex="0" aria-label="Wiedergabeposition" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <div class="timeline-track"></div>
+          <div class="timeline-progress" id="timeline-progress"></div>
+        </div>
+        <div class="time-row">
+          <span id="current-time">0:00</span>
+          <span id="remaining-time">-0:00</span>
+        </div>
+      </div>
+
+      <div class="player-controls">
+        <button class="nav-btn" id="prev-btn" type="button" disabled aria-label="Vorheriger Track"></button>
+        <button class="play-btn" id="play-btn" type="button" aria-label="Abspielen" aria-pressed="false">
+          <img class="play-icon" src="assets/images/play-icon.svg" alt="">
+          <span class="pause-icon"><span></span><span></span></span>
+        </button>
+        <button class="nav-btn" id="next-btn" type="button" disabled aria-label="Nächster Track"></button>
+      </div>
+    </div>
+
+    <img src="assets/images/chevron-down.svg" alt="" width="13.5" height="6.7263">
+  </section>
+ </div>
+
+  <footer class="details">
+    <h2 class="details-title">Details</h2>
+    <div class="details-text">
+      <p>Aus dem Album <em>Sounding Whales</em> Vol. I</p>
+    </div>
+    <p class="details-rights">℗ Abigail Sanders</p>
+    <div class="legal-links">
+      <a href="https://kunst-und-natur.de/stiftung/impressum" target="_blank" rel="noopener">Impressum</a>
+      <span>Datenschutz</span>
+    </div>
+  </footer>
+</main>
+<script src="assets/js/player.js"></script>
+</body>
+</html>

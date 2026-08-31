@@ -36,7 +36,8 @@ body.player-page--bootsmannfische-knurren,
 body.player-page--bootsmannfische-grunzen,
 body.player-page--how-to-be-a-whale,
 body.player-page--pottwale-kommunikationsrhythmus,
-body.player-page--pottwale-kommunikation-geburt {
+body.player-page--pottwale-kommunikation-geburt,
+body.player-page--klingen-wie-ein-wal {
   background-image: url("../images/purple-bg.png");
 }
 
@@ -46,7 +47,8 @@ body.player-page--bootsmannfische-knurren .timeline-progress,
 body.player-page--bootsmannfische-grunzen .timeline-progress,
 body.player-page--how-to-be-a-whale .timeline-progress,
 body.player-page--pottwale-kommunikationsrhythmus .timeline-progress,
-body.player-page--pottwale-kommunikation-geburt .timeline-progress {
+body.player-page--pottwale-kommunikation-geburt .timeline-progress,
+body.player-page--klingen-wie-ein-wal .timeline-progress {
   background: #a593c2;
 }
 
