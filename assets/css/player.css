@@ -35,7 +35,8 @@ body.player-page--bootsmannfische-summen,
 body.player-page--bootsmannfische-knurren,
 body.player-page--bootsmannfische-grunzen,
 body.player-page--how-to-be-a-whale,
-body.player-page--pottwale-kommunikationsrhythmus {
+body.player-page--pottwale-kommunikationsrhythmus,
+body.player-page--pottwale-kommunikation-geburt {
   background-image: url("../images/purple-bg.png");
 }
 
@@ -44,13 +45,16 @@ body.player-page--bootsmannfische-summen .timeline-progress,
 body.player-page--bootsmannfische-knurren .timeline-progress,
 body.player-page--bootsmannfische-grunzen .timeline-progress,
 body.player-page--how-to-be-a-whale .timeline-progress,
-body.player-page--pottwale-kommunikationsrhythmus .timeline-progress {
+body.player-page--pottwale-kommunikationsrhythmus .timeline-progress,
+body.player-page--pottwale-kommunikation-geburt .timeline-progress {
   background: #a593c2;
 }
 
 body.player-page--bootsmannfische-summen .list-item--active .list-row,
 body.player-page--bootsmannfische-knurren .list-item--active .list-row,
-body.player-page--bootsmannfische-grunzen .list-item--active .list-row {
+body.player-page--bootsmannfische-grunzen .list-item--active .list-row,
+body.player-page--pottwale-kommunikationsrhythmus .list-item--active .list-row,
+body.player-page--pottwale-kommunikation-geburt .list-item--active .list-row {
   background: rgba(165, 147, 194, 0.5);
 }
 
