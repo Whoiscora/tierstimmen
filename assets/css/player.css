@@ -30,6 +30,14 @@ body.player-page--magicicada-warm-springs .timeline-progress {
   background: #83bc94;
 }
 
+body.player-page--lachende-ratten {
+  background-image: url("../images/purple-bg.png");
+}
+
+body.player-page--lachende-ratten .timeline-progress {
+  background: #a593c2;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
