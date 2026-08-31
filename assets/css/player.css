@@ -12,7 +12,8 @@ body.player-page--gallicinium,
 body.player-page--wachtelruf,
 body.player-page--kuckucksruf,
 body.player-page--henne-eier,
-body.player-page--henne-kueken {
+body.player-page--henne-kueken,
+body.player-page--night-black-bird-song {
   background-image: url("../images/gallicinium-bg.png");
 }
 
