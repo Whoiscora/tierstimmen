@@ -30,12 +30,18 @@ body.player-page--magicicada-warm-springs .timeline-progress {
   background: #83bc94;
 }
 
-body.player-page--lachende-ratten {
+body.player-page--lachende-ratten,
+body.player-page--bootsmannfische-summen {
   background-image: url("../images/purple-bg.png");
 }
 
-body.player-page--lachende-ratten .timeline-progress {
+body.player-page--lachende-ratten .timeline-progress,
+body.player-page--bootsmannfische-summen .timeline-progress {
   background: #a593c2;
+}
+
+body.player-page--bootsmannfische-summen .list-item--active .list-row {
+  background: rgba(165, 147, 194, 0.5);
 }
 
 .hero {
