@@ -75,6 +75,7 @@ body.player-page--gallicinium {
   width: 0.71875rem;
   height: 0.357rem;
   transition: transform 0.2s ease;
+  visibility: hidden;
 }
 
 .tracklist-toggle[aria-expanded="true"] img {
