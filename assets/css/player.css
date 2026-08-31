@@ -18,11 +18,13 @@ body.player-page--luscinia {
   background-image: url("../images/gallicinium-bg.png");
 }
 
-body.player-page--we-are-one {
+body.player-page--we-are-one,
+body.player-page--du-bist-gut-drauf {
   background-image: url("../images/green-bg.png");
 }
 
-body.player-page--we-are-one .timeline-progress {
+body.player-page--we-are-one .timeline-progress,
+body.player-page--du-bist-gut-drauf .timeline-progress {
   background: #83bc94;
 }
 
