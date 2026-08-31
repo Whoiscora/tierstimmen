@@ -18,6 +18,14 @@ body.player-page--luscinia {
   background-image: url("../images/gallicinium-bg.png");
 }
 
+body.player-page--we-are-one {
+  background-image: url("../images/green-bg.png");
+}
+
+body.player-page--we-are-one .timeline-progress {
+  background: #83bc94;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
