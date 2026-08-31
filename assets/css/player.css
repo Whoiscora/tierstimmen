@@ -8,7 +8,8 @@ body.player-page--weiher {
   background-image: url("../images/weiher-bg.png");
 }
 
-body.player-page--gallicinium {
+body.player-page--gallicinium,
+body.player-page--wachtelruf {
   background-image: url("../images/gallicinium-bg.png");
 }
 
@@ -197,6 +198,7 @@ body.player-page--gallicinium {
 }
 
 .nav-btn {
+  display: block;
   flex: 0 0 auto;
   width: 2rem;
   height: 2rem;
