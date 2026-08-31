@@ -39,7 +39,8 @@ body.player-page--pottwale-kommunikationsrhythmus,
 body.player-page--pottwale-kommunikation-geburt,
 body.player-page--klingen-wie-ein-wal,
 body.player-page--raben-futterrufe,
-body.player-page--raben-alarmrufe {
+body.player-page--raben-alarmrufe,
+body.player-page--raben-imponierrufe {
   background-image: url("../images/purple-bg.png");
 }
 
@@ -52,7 +53,8 @@ body.player-page--pottwale-kommunikationsrhythmus .timeline-progress,
 body.player-page--pottwale-kommunikation-geburt .timeline-progress,
 body.player-page--klingen-wie-ein-wal .timeline-progress,
 body.player-page--raben-futterrufe .timeline-progress,
-body.player-page--raben-alarmrufe .timeline-progress {
+body.player-page--raben-alarmrufe .timeline-progress,
+body.player-page--raben-imponierrufe .timeline-progress {
   background: #a593c2;
 }
 
@@ -62,7 +64,8 @@ body.player-page--bootsmannfische-grunzen .list-item--active .list-row,
 body.player-page--pottwale-kommunikationsrhythmus .list-item--active .list-row,
 body.player-page--pottwale-kommunikation-geburt .list-item--active .list-row,
 body.player-page--raben-futterrufe .list-item--active .list-row,
-body.player-page--raben-alarmrufe .list-item--active .list-row {
+body.player-page--raben-alarmrufe .list-item--active .list-row,
+body.player-page--raben-imponierrufe .list-item--active .list-row {
   background: rgba(165, 147, 194, 0.5);
 }
 
