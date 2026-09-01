@@ -174,8 +174,7 @@ img {
   color: #000000;
 }
 
-.page-footer a,
-.page-footer span {
+.page-footer a {
   width: fit-content;
   text-decoration: underline;
   text-underline-offset: 0.0625rem;

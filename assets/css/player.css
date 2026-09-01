@@ -402,8 +402,7 @@ body.player-page--kauai-oo .timeline-progress {
   color: #000000;
 }
 
-.legal-links a,
-.legal-links span {
+.legal-links a {
   width: fit-content;
   text-decoration: underline;
   text-underline-offset: 0.0625rem;
